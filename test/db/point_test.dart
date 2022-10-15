@@ -1,9 +1,11 @@
 import 'dart:typed_data';
 
 import 'package:empatiplatform/db/point.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   group("Point Serialize", () {
     test("Basic String Serialize, a:a:a", () {
       Point p = Point("a", "a", "a");
