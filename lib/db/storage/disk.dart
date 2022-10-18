@@ -1,4 +1,5 @@
 import 'dart:typed_data';
+import 'package:empatiplatform/db/storage/block.dart';
 import 'package:empatiplatform/util/controller.dart';
 
 class DiskInput {
@@ -42,6 +43,7 @@ class DOData extends DiskOutput {
 
 class Disk extends Controller<DiskInput, DiskOutput> {
   Disk();
+  final List<Block> blocks = List.empty(growable: true);
 
   @override
   Future<void> process(DiskInput event) async {

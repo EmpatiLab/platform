@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:empatiplatform/db/point.dart';
+import 'package:empatiplatform/db/storage/point.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 

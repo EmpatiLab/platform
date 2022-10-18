@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'dart:math' as math;
-import 'package:empatiplatform/db/disk.dart';
+import 'package:empatiplatform/db/storage/disk.dart';
 import 'package:path_provider/path_provider.dart';
 
 math.Random r = math.Random();

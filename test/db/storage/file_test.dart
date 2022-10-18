@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:empatiplatform/db/file.dart';
+import 'package:empatiplatform/db/storage/file.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 
